@@ -1,0 +1,296 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head>
+		<title>Newtown 911 Calls</title>
+		<link href="css/newtown.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/not.the.skin.css">
+		<link rel="stylesheet" href="circle.skin/circle.player.css">
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.transform2d.js"></script>
+		<script type="text/javascript" src="js/jquery.grab.js"></script>
+		<script type="text/javascript" src="js/jquery.jplayer.js"></script>
+		<script type="text/javascript" src="js/mod.csstransforms.min.js"></script>
+		<script type="text/javascript" src="js/circle.player.js"></script>
+
+        <script src="js/modernizr.js"></script>
+
+		<script type="text/javascript">
+		$(document).ready(function(){
+
+			/*
+			 * Instance CirclePlayer inside jQuery doc ready
+			 *
+			 * CirclePlayer(jPlayerSelector, media, options)
+			 *   jPlayerSelector: String - The css selector of the jPlayer div.
+			 *   media: Object - The media object used in jPlayer("setMedia",media).
+			 *   options: Object - The jPlayer options.
+			 *
+			 * Multiple instances must set the cssSelectorAncestor in the jPlayer options. Defaults to "#cp_container_1" in CirclePlayer.
+			 */
+
+			var myCirclePlayer1 = new CirclePlayer("#jquery_jplayer_1",
+			{
+				mp3:"audio/call1.mp3",
+				oga:"audio/call1.ogg"
+			}, {
+				cssSelectorAncestor: "#cp_container_1",
+    			supplied: "mp3,ogg",
+    			swfPath: "http://tdbeta.digitalfirstmedia.com/breakingbad/js",
+				wmode: "window",
+				keyEnabled: true
+			});
+
+			
+			var myCirclePlayer3 = new CirclePlayer("#jquery_jplayer_3",
+			{
+				mp3:"audio/call3.mp3",
+				oga:"audio/call3.ogg"
+			}, {
+				cssSelectorAncestor: "#cp_container_3",
+    			supplied: "mp3,ogg",
+    			swfPath: "http://tdbeta.digitalfirstmedia.com/breakingbad/js",
+				wmode: "window",
+				keyEnabled: true
+			});
+
+			var myCirclePlayer4 = new CirclePlayer("#jquery_jplayer_4",
+			{
+				mp3:"audio/call4.mp3",
+				oga:"audio/call4.ogg"
+			}, {
+				cssSelectorAncestor: "#cp_container_4",
+    			supplied: "mp3,ogg",
+    			swfPath: "http://tdbeta.digitalfirstmedia.com/breakingbad/js",
+				wmode: "window",
+				keyEnabled: true
+			});
+
+			var myCirclePlayer5 = new CirclePlayer("#jquery_jplayer_5",
+			{
+				mp3:"audio/call5.mp3",
+				oga:"audio/call5.ogg"
+			}, {
+				cssSelectorAncestor: "#cp_container_5",
+    			supplied: "mp3,ogg",
+    			swfPath: "http://tdbeta.digitalfirstmedia.com/breakingbad/js",
+				wmode: "window",
+				keyEnabled: true
+			});
+
+			var myCirclePlayer7 = new CirclePlayer("#jquery_jplayer_7",
+			{
+				mp3:"audio/call7.mp3",
+				oga:"audio/call7.ogg"
+			}, {
+				cssSelectorAncestor: "#cp_container_7",
+    			supplied: "mp3,ogg",
+    			swfPath: "http://tdbeta.digitalfirstmedia.com/breakingbad/js",
+				wmode: "window",
+				keyEnabled: true
+			});
+
+
+
+		});
+		</script>
+
+	</head>
+
+	<body>
+		<div id="jquery_jplayer_1" class="cp-jplayer"></div>
+		<div id="jquery_jplayer_3" class="cp-jplayer"></div>
+		<div id="jquery_jplayer_4" class="cp-jplayer"></div>
+		<div id="jquery_jplayer_5" class="cp-jplayer"></div>
+		<div id="jquery_jplayer_7" class="cp-jplayer"></div>
+
+		<div id="bbContainer">
+
+			<div class="mediaCon">
+				<div class="galleryCon">
+					<div class="flexslider">
+					  <ul class="slides">
+					    <li>
+					      <img src="img/newtown1.jpg" />
+					      <p class="flex-caption">Outside the Sandy Hook School in Newtown, shooting aftermath. (Melanie Stenge/New Haven Register)</p>
+					    </li>
+					    <li>
+					       <img src="img/newtown2.jpg" />
+					       <p class="flex-caption">The front of Sandy Hook Elementary School photographed Dec. 14, 2012. (Arnold Gold/New Haven Register)</p>
+					    </li>
+					    <li>
+					       <img src="img/newtown3.jpg" />
+					       <p class="flex-caption">An unidentified woman asks a police officer for information about a teacher after a shooting spree threw Sandy Hook Elementary School in Newtown into turmoil Dec. 14, 2012. (Melanie Stengel/New Haven Register)</p>
+					    </li>
+					    <li>
+					       <img src="img/newtown4.jpg" />
+					       <p class="flex-caption">Connecticut state police officers check the scene at the aftermath of a school shooting at a Connecticut elementary school that brought police swarming into the leafy neighborhood, while other area schools were put under lock-down, police and local media said. (Don Emmert/AFP/Getty Images)</p>
+					    </li>
+					    <li>
+					       <img src="img/newtown5.jpg" />
+					       <p class="flex-caption">Responders gather at the scene of a mass school shooting at Sandy Hook Elementary School on Dec. 14, 2012 in Newtown, Conn., where Adam Lanza killed 26 in one of the largest school massacres in U.S. history. (Mario Tama/Getty Images)</p>
+					    </li>
+					    <li>
+					       <img src="img/newtown6.jpg" />
+					       <p class="flex-caption">Fire resue squad help secure the area following a shooting December 14, 2012 at Sandy Hook Elementary School on December 14, 2012 in Newtown, Connecticut. (Don Emmert/AFP/Getty Images)</p>
+					    </li>
+					  </ul>
+					</div>
+				</div>
+				<div class="audioCon">
+					<div id="cp_container_1" class="cp-container">
+						<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
+							<div class="cp-buffer-1"></div>
+							<div class="cp-buffer-2"></div>
+						</div>
+						<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
+							<div class="cp-progress-1"></div>
+							<div class="cp-progress-2"></div>
+						</div>
+						<div class="cp-circle-control"></div>
+						<ul class="cp-controls">
+							<li><a class="cp-play" tabindex="1">play</a></li>
+							<li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
+						</ul>
+					</div>
+					<div class="caption">Listen to the call (0:24)</div>
+				</div>
+
+				<div class="textCon">
+					<p>"I saw a glimpse of somebody running down the hallway. They're still running, they're still shooting — Sandy Hook school, please."</p>
+				</div>
+
+
+				<div class="audioCon">
+					<div id="cp_container_3" class="cp-container">
+						<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
+							<div class="cp-buffer-1"></div>
+							<div class="cp-buffer-2"></div>
+						</div>
+						<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
+							<div class="cp-progress-1"></div>
+							<div class="cp-progress-2"></div>
+						</div>
+						<div class="cp-circle-control"></div>
+						<ul class="cp-controls">
+							<li><a class="cp-play" tabindex="1">play</a></li>
+							<li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
+						</ul>
+					</div>
+					<div class="caption">Listen to the call (2:29)</div>
+				</div>
+
+				<div class="textCon">
+					<p>"I believe they're shooting at the front, at the front glass, something's going on ..." <span class="caller">- Rick, acting head custodian </span></p>
+				</div>
+
+				<div class="audioCon">
+					<div id="cp_container_4" class="cp-container">
+						<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
+							<div class="cp-buffer-1"></div>
+							<div class="cp-buffer-2"></div>
+						</div>
+						<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
+							<div class="cp-progress-1"></div>
+							<div class="cp-progress-2"></div>
+						</div>
+						<div class="cp-circle-control"></div>
+						<ul class="cp-controls">
+							<li><a class="cp-play" tabindex="1">play</a></li>
+							<li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
+						</ul>
+					</div>
+					<div class="caption">Listen to the call (0:42)</div>
+				</div>
+
+				<div class="textCon">
+					<p>"It sounds like there are gunshots in the hallway. I'm a teacher in the school." </p>
+				</div>
+
+				<div class="audioCon">
+					<div id="cp_container_5" class="cp-container">
+						<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
+							<div class="cp-buffer-1"></div>
+							<div class="cp-buffer-2"></div>
+						</div>
+						<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
+							<div class="cp-progress-1"></div>
+							<div class="cp-progress-2"></div>
+						</div>
+						<div class="cp-circle-control"></div>
+						<ul class="cp-controls">
+							<li><a class="cp-play" tabindex="1">play</a></li>
+							<li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
+						</ul>
+					</div>
+					<div class="caption">Listen to the call (1:43)</div>
+				</div>
+
+				<div class="textCon">
+					<p>A state policeman and a woman who's been shot in the foot call to report her injury from a classroom in the school.</p>
+				</div>
+
+				<div class="audioCon">
+					<div id="cp_container_7" class="cp-container">
+						<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
+							<div class="cp-buffer-1"></div>
+							<div class="cp-buffer-2"></div>
+						</div>
+						<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
+							<div class="cp-progress-1"></div>
+							<div class="cp-progress-2"></div>
+						</div>
+						<div class="cp-circle-control"></div>
+						<ul class="cp-controls">
+							<li><a class="cp-play" tabindex="1">play</a></li>
+							<li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
+						</ul>
+					</div>
+					<div class="caption">Listen to the call (0:22)</div>
+				</div>
+
+				<div class="textCon">
+					<p>Rick, a Sandy Hook custodian, is confronted by police who enter the school and relays information between police on scene and 911 dispatchers. Rick did not see the shooter, but heard the shots.</p>
+				</div>
+
+
+			</div>
+
+
+
+
+			<div style="clear:both"></div>
+
+
+		</div> <!--END BBCONTAINER-->
+
+		<!-- FlexSlider -->
+  		<script defer src="js/jquery.flexslider.js"></script>
+  		<script>
+  			$(window).load(function() {
+			  $('.flexslider').flexslider({
+			    animation: "slide",
+			    smoothHeight: true
+			  });
+			});
+  		</script>
+
+  		<script type="text/javascript">
+	        var _gaq = _gaq || [];
+	        _gaq.push(['_setAccount', 'UA-37303540-1']);
+	        _gaq.push(['_trackPageview']);
+
+	        (function() {
+	          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	        })();
+      	</script>
+
+
+		
+	</body>
+
+
+</html>

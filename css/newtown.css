@@ -1,0 +1,20 @@
+body { background-color: #FFF !important }
+
+#bbContainer { width: 620px; display: block;}
+
+.mediaCon { width: 620px }
+
+.galleryCon { width: 620px; height: 500px; margin-bottom: 10px; }
+.audioCon { width: 135px; height: 115px; float: left; border-right: 1px dotted #CCC; padding: 0 10px 10px 10px; }
+.textCon { width: 440px; height: 130px; float: left; padding: 10px 10px 0 10px; }
+.textCon p { font: 18px Georgia; margin-top: 0px; line-height: 1.4em; color: #333; }
+.audioCon .caption { font: 11px Arial; color: #666; text-align: center }
+
+#cp_container_1, #cp_container_2, #cp_container_3, #cp_container_4, #cp_container_5, #cp_container_6, #cp_container_7 { margin-right: auto; margin-left: auto; }
+
+#arrowp { position: fixed; top: 200px; }
+#arrown { position: fixed; top: 200px; left: 600px; }
+
+.flex-caption { font: 11px Arial; color: #999; padding:0px;}
+
+.caller { color: #999; font-style: italic}
