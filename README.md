@@ -3,7 +3,10 @@ newtown-911-calls
 
 What is this?
 -------------
-Audio from 911 calls during the Newtown school shootings
+Audio from 911 calls during the Newtown school shootings, released in December 2013. 
+Live demo: http://data.digitalfirstmedia.com/newtown911/
+
+![911 calls](screenshots/911.png)
 
 
 Credits
